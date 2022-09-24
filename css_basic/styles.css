@@ -1,1 +1,22 @@
+.flexible_box {
+   display: flex;
+   flex-direction: row;
+}
 
+#three_box {
+    flex-direction: column;
+}
+
+#auto_flex {
+    flex: auto;
+}
+
+#box2 {
+    flex: 2;
+    overflow-y: auto;
+}
+
+#box1 {
+    flex: 1;
+    overflow-y: auto;
+}

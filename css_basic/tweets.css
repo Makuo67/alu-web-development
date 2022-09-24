@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Basic HTML</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="base.css">
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body class="flexible_box" id="three_box">
+           <header>
+            <ul>
+                <li>Click to return to index.html page</li>
+            </ul>
+            <div><a href="index.html">here</a></div>
+            <ol>
+                <li>Click to return to the base_index.html page</li>
+            </ol>
+            <div><a href="task.html">here</a></div>
+           </header>
+           <main class="flexible_box" id="auto_flex">
+            <article id="box2">
+                <h1>Article Heading</h1>
+                <div>
+                    If you’ve done all of those properly, and your HTML structure is correct, you should get exactly the layout we were trying to get.
+
+Do note that the exact rendering you’re getting may be slightly different depending on your browser (namely, about whether header and footer are fixed or not when the user scrolls), but should always match the layout presented above.
+                </div>
+                <div><blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Check out my Gig on Fiverr: deliver a professional and ethical proofreading and editing <a href="https://t.co/h3OAmEPJDI">https://t.co/h3OAmEPJDI</a></p>&mdash; Okeke Christian (@OkekeCh72667362) <a href="https://twitter.com/OkekeCh72667362/status/1490259137296490499?ref_src=twsrc%5Etfw">February 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script></div>
+                <img src="https://images.unsplash.com/photo-1660913285479-d955daf0200b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" alt="Image">
+            </article>
+            <aside id="box1">
+                <p>placeholder to add comment thread later</p>
+                <p>
+                    Even though each element of your webpages now has a different style, you may notice they still are stacked on top of each other, and that’s probably not what you want. CSS brings a few different approaches to positioning that one may use depending on cases.
+
+For this project, we’re going to use CSS Flexbox, a recent set of CSS properties that work with recent browsers.
+
+Our goal is to get a layout that looks like this:
+                </p>
+            </aside>
+           </main>
+           <footer>
+            <p>Made by Okeke Makuochukwu - <a href="https://updates.africayouthpartnership.org/okeke-makuochukwu/" target="_blank">here</a></p>
+           </footer>
+        </body>
+    </html>
