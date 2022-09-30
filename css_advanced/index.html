@@ -1,72 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HTML skeleton</title>
-</head>
-<body>
-    <header>
-        <div>
-            <a><img src="https://templatemo.com/thumbnails-360/tm-518-sentra.jpg" alt="Picture"></a>
-        </div>
-        <div>
-            <a href="www.google.com">Here is a clickable element</a>
-            <a href="www.alueducation.com">Here is a clickable element</a>
-            <a href="www.facebook.com">Here is a clickable element</a>
-        </div>
-    </header>
-    <main>
-        <section>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>HTML skeleton</title>
+        <link rel="stylesheet" href="task_style.css">
+    </head>
+    <body>
+        <header class="header_navigation">
             <div>
-                <h1>Title</h1>
-                <p>
-                This text is bold
-                </p>
-                <button type="button">Click Me!</button>
+                <a><img src="smiley.jpg" alt="Emoji" width="20" height="20"> SmileySchool</a>
+                
             </div>
+            
             <div>
-                <h2>Title2</h2>
-                <div>
-                  <div>
-                    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHBlcnNvbnxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Image1">
-                    <h3>Heading 2</h3>
-                    <p>Let's make this a paragraph</p>
-                  </div>
-                  <div>
-                    <img src="https://media.istockphoto.com/photos/taj-mahal-mausoleum-in-agra-picture-id1146517111?k=20&m=1146517111&s=612x612&w=0&h=vHWfu6TE0R5rG6DJkV42Jxr49aEsLN0ML-ihvtim8kk=" alt="Image1">
-                    <h3>Heading 3</h3>
-                    <p>Let's make this another paragraph</p>
-                  </div>
-                  <div>
-                    <img src="https://images.ctfassets.net/hrltx12pl8hq/a2hkMAaruSQ8haQZ4rBL9/8ff4a6f289b9ca3f4e6474f29793a74a/nature-image-for-website.jpg?fit=fill&w=480&h=320" alt="Image1">
-                    <h3>Heading 4</h3>
-                    <p>Let's make this a third paragraph</p>
-                  </div> 
-                </div>
+                <a href="www.coursera.com" style="color:white">COURSES</a>
+                <a href="www.alueducation.com" style="color:white">PRICING</a>
+                <a href="www.facebook.com" style="color:white">LOGIN</a>
             </div>
-        </section>
-        <section>
-            <h1>Quotes</h1>
-            <div>
-                <img src="https://us.123rf.com/450wm/jojjik/jojjik1811/jojjik181100038/113852175-boat-hut-on-braies-lake-with-seekofel-mount-on-background-colorful-autumn-landscape-in-italian-alps-.jpg?ver=6" alt="Good image">
-                <div>
-                    <blockquote>I dream of a country where by children will not be judged by the color of their skin but by the content of their character</blockquote>
-                    <p>-MARTIN LUTHER KING Jnr.</p>
-                    <p> Okay, Let's get into it!</p>
+        </header>
+        <main>
+            <section class="section1">
+    
+                <div id="second_header_wrapping">
+            
+                  <h1 style="font-size:60px">Get Schooled</h1>
+                
+                    
+                    <p>
+                        SMILES GRIN LAUGH
+                    </p>
+                    <div >
+                        <button type="button" id="divblock">REGISTER FOR FREE</button>
+                    </div>
                 </div>
+                <div class="Pros_wrapping">
+                    <h2 id="header2">
+                        <a style="color:darkorchid">Learn</a>
+                        from the Pros</h2>
+                    <div class="div1">
+                      <div>
+                        <img src="IMG_20220209_124143_533.jpg" alt="Image1" width="60" height="60" style="border-radius:50%">
+                        <h3><b>Okeke Makuo</b></h3>
+                        <p><i>CEO, R-Generations</i></p>
+                      </div>
+                      <div>
+                        <img src="IMG-20220614-WA0006.jpg" alt="Image1" width="60" height="60" style="border-radius:50%">
+                        <h3> <b>Christian Okeke</b></h3>
+                        <p><i>CEO, Oleman Group</i></p>
+                      </div>
+                      <div>
+                        <img src="IMG-20220614-WA0005.jpg" alt="Image1" width="60" height="60" style="border-radius:50%" >
+                        <h3><b>Anthony Christian</b></h3>
+                        <p><i>CEO, Makus Plc</i></p>
+                      </div> 
+                    </div>
+                </div>
+            </section>
+            
+            <section class="quotes"> 
+                <div id="inlinequotes">
+                    <div style="color:white">
+                        <blockquote>I dream of a country where by children will not be judged by the color of their skin but by the content of their character</blockquote>
+                        <img src="IMG_20220209_124143_533.jpg" alt="Good image" width="60" height="60" style="border-radius:50%">
+                        <p><b>Martin Luther King Jnr.</b></p>
+                        <p><i>Human Rights Activist</i></p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="videos">
+                <h1>
+                    Most
+                    <span style="color:darkorchid">
+                        Popular
+                    <span/>
+                    Tutorials
+                </h1>
+                <div id="video_lists">
+                    <div>
+                        <img src="Firstvideo.jpeg" alt="Video" width="85" height="60" style="border-radius:30px">
+                        <h2><b> Diagonal Smile</b></h2>
+                        <p>Best videos</p>
+                        <div class="video_author">
+                            <img src="https://updates.africayouthpartnership.org/wp-content/uploads/2022/06/Makuochukwu-Okeke.png" alt="Author" width="40" height="40" style="border-radius:50%">
+                            <h4 style="color:darkorchid"> Okeke Makuo</h4>
+                        </div>
+                        <div id="star">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa<-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div>
+                                <p>8min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="second.jpg" alt="Video" width="85" height="60" style="border-radius:30px">
+                        <h2> <b>Sad Smile</b></h2>
+                        <p>Favorite videos</p>
+                        <div class="video_author">
+                            <img src="https://updates.africayouthpartnership.org/wp-content/uploads/2022/06/Makuochukwu-Okeke.png" alt="Author" width="40" height="40" style="border-radius:50%">
+                            <h4 style="color:darkorchid"> Okeke Makuo</h4>
+                        </div>
+                        <div class="star">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa<-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div>
+                                <p>8min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="third.png" alt="Video" width="85" height="60" style="border-radius:30px">
+                        <h2><b> Natural Smile</b></h2>
+                        <p>Currently streamed videos</p>
+                        <div class="video_author">
+                            <img src="https://updates.africayouthpartnership.org/wp-content/uploads/2022/06/Makuochukwu-Okeke.png" alt="Author" width="40" height="40" style="border-radius:50%">
+                            <h4 style="color:darkorchid"> Okeke Makuo</h4>
+                        </div>
+                        <div class="star">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa<-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div>
+                                <p>8min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="fourth.png" alt="Video" width="85" height="60" style="border-radius:30px">
+                        <h2> <b>Happy Smile</b></h2>
+                        <p>Sci-fi videos</p>
+                        <div class="video_author">
+                            <img src="https://updates.africayouthpartnership.org/wp-content/uploads/2022/06/Makuochukwu-Okeke.png" alt="Author" width="40" height="40" style="border-radius:50%">
+                            <h4 style="color:darkorchid"> Okeke Makuo</h4>
+                        </div>
+                        <div class="star">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa<-star checked"></span>
+                                <span class="fa fa-star unchecked"></span>
+                            </div>
+                            <div>
+                                <p>8min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="Membership">
+               <h1>
+                <span style="color:darkorchid" >Free<span/>membership
+               </h1>
+               <div id="Members">
+                    <div>
+                        <img src="smiley.jpg" alt="Smiley logo" width="20" height="20">
+                        <h2><b>Member</b></h2>
+                        <p><i>Spin cycle is a member of this block</i></p>
+                    </div>
+                    <div>
+                        <img src="smiley.jpg" alt="Smiley logo" width="20" height="20">
+                        <h2><b>Member</b></h2>
+                        <p><i>Spin cycle is a member of this block</i></p>
+                    </div>
+                    <div>
+                        <img src="smiley.jpg" alt="Smiley logo" width="20" height="20">
+                        <h2><b>Member</b></h2>
+                        <p><i>Spin cycle is a member of this block</i></p>
+                    </div>
+                    <div>
+                        <img src="smiley.jpg" alt="Smiley logo" width="20" height="20">
+                        <h2>Member</h2>
+                        <p>W3 schools is a member of this block</p>
+                    </div>
+               </div>
+               <button type="button" id="member_button">Membership button </button>
+            </section>
+            <section class="faq">
+                <h1>F.A.Q</h1>
+                <div id="faq_block">
+                    <div>
+                        <div>
+                            <h2>How does this work?</h2>
+                            <p> My passion for building a peaceful and sustainable society started in high school. As a young kid, I was well versed in the political landscape of my country, Nigeria</p>
+                        </div>
+                        <div>
+                            <h2>How does this work?</h2>
+                            <p> My passion for building a peaceful and sustainable society started in high school. As a young kid, I was well versed in the political landscape of my country, Nigeria</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                             <h2>How does this work?</h2>
+                             <p> My passion for building a peaceful and sustainable society started in high school. As a young kid, I was well versed in the political landscape of my country, Nigeria</p>
+                        </div>
+                        <div>
+                            <h2>How does this work?</h2>
+                            <p>My passion for building a peaceful and sustainable society started in high school. As a young kid, I was well versed in the political landscape of my country, Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div id="footer_alignment">
+                    <div id="smiley_alignment">
+                        <img src="smiley.jpg" alt="Smiley image" width="20" height="20" >
+                        <p>SmileySchool</p>
+                    </div>
+                    <div id="icon_alignment">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="facebook.png" alt="Facebook logo" width="20" height="20" style="border-radius:50%">
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="Twitter.png" alt="Twitter logo" width="20" height="20" style="border-radius:50%">
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="Instagram.png" alt="Instagram logo" width="20" height="20" style="border-radius:50%">
+                        </a>
+                    </div>
+                    
+                </div>
+                <p>Copyright@2022</p>
             </div>
-        </section>
-        <section>
-            <h1>Videos List</h1>
-            <div>
-                <div>
-                    <img src="https://us.123rf.com/450wm/shaiith/shaiith1910/shaiith191000257/132190872-stunning-old-hut-and-lago-di-braies-at-sunrise-dolomites.jpg?ver=6" alt="Video">
-                    <h2> Vidoes</h2>
-                    <p>This is a list of your favorite videos</p>
-                </div>
-                <div>
-                    <img src="https://us.123rf.com/450wm/shaiith/shaiith1910/shaiith191000257/132190872-stunning-old-hut-and-lago-di-braies-at-sunrise-dolomites.jpg?ver=6" alt="Video">
-                    <h2> Vidoes</h2>
-                    <p>This is a list of your favorite v
+        </footer>
+    </body>
+</html>
